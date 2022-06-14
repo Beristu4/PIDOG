@@ -30,7 +30,7 @@ export default function Card({name,image,temperament,id,pesoMax}){
                 </div>
                 <div className="temperament">
                     <p><b>Temperamento:</b>{temperament}</p>
-                    <p><b>Peso Maximo:</b>{pesoMax}</p>
+                    <p><b>Peso Maximo:</b>{pesoMax} kg</p>
                 </div>
             </div>
         </div>
