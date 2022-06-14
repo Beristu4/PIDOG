@@ -1,0 +1,55 @@
+.contenedor-principal{
+    display: inline-block;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, .15);
+    padding: 35px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    cursor: pointer; 
+    max-width: 350px; 
+    /* background-image: url('https://w0.peakpx.com/wallpaper/15/765/HD-wallpaper-sand-imprint-paw-animal.jpg'); */
+    background-color: transparent;
+}
+
+.contenedor-principal:hover {
+    background-color: rgba(136, 128, 120, 0.567) ;
+}
+.contenedor-imagen  img{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.link-card {
+    text-decoration: none;
+}
+.info-card  h3 {
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.info-card button{
+    display: flex;
+    float: right;
+}
+.temperament {
+    display: flex;
+    flex-direction: column;
+    max-height: 40px;
+    padding: 40px;
+}
+
+.filtrado p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton-card{
+    float: right;
+}
