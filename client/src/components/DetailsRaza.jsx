@@ -53,19 +53,6 @@ export default function DetailsRaza() {
         </div> 
             }
         </div>
-        
-        // <div className="contenedor-principal">
-        //     <div className='info-card'>
-        //        <h3 className='name'>{raza.name}</h3>
-        //     </div>
-        //     <div className='contenedor-imagen'>
-        //         <img className='imagen-perro' src={raza.img} alt={raza.name} />
-        //     </div>
-        //     <div className="temperament">
-        //         <p><b>Temperamento:</b>{raza.temperament}</p>
-        //         <p><b>Peso Maximo:</b> {raza.pesoMax}</p>
-        //     </div>
-        // </div>
     )
 }
 

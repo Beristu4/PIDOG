@@ -79,7 +79,6 @@ data.map(e=>{
 
             }
         })
-
         })
         
     arregTemp.sort().map(async(temp)=> await Temperamento.findOrCreate({where:{name: temp}}))
